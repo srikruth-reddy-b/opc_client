@@ -1,9 +1,9 @@
 {
-    "base":"wss://qa65.assetsense.com/ws/proto",
+    "base":" ",
     "header":  {
         "key":"Authorization",
-        "username":"saikiran.o2",
-        "password":"HydeVil#71"
+        "username":" ",
+        "password":" "
     },
     "message": {
         "msg_type": "GET_TAG_DATA",
@@ -29,9 +29,9 @@
         }
     },
     "opc":{ 
-         "url": "opc.tcp://192.168.1.7:49320",
-         "username":"srikruth",
-         "password":"11111111111111"
+         "url": " ",
+         "username":" ",
+         "password":" "
     },
     "num_producers":5,
     "num_consumers":5
