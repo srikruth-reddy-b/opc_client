@@ -1,5 +1,6 @@
-# OPC Client
+# Object Oriented Programming in Rust
 
+# OPC Client
 This project implements an **OPC Client** that interacts with an OPC server and a WebSocket server. The client performs the following tasks:
 
 1. **Fetches tags** from a WebSocket server.
