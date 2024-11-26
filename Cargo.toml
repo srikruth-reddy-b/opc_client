@@ -1,0 +1,26 @@
+[package]
+name = "opc_project_"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+opcua = { version = "0.12.0", features = ["console-logging"] }# or the version you want
+pico-args = "0.5"  # for command line argument parsing
+tokio = { version = "1", features = ["full"] }
+log = "0.4"
+log4rs = "1.2"
+tokio-tungstenite = "0.17"
+tokio-native-tls = "0.3"
+url = "2"
+serde_json = "1"
+futures-util = "0.3"
+base64 = "0.13"
+serde = { version = "1", features = ["derive"] }
+chrono = "0.4"
+tonic = "0.11"
+prost = "0.10"
+lazy_static = "1.4"
+
+[build-dependencies]
+tonic-build = "0.11.0"
+prost-build = "0.10"

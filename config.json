@@ -1,0 +1,38 @@
+{
+    "base":"wss://qa65.assetsense.com/ws/proto",
+    "header":  {
+        "key":"Authorization",
+        "username":"saikiran.o2",
+        "password":"HydeVil#71"
+    },
+    "message": {
+        "msg_type": "GET_TAG_DATA",
+        "filter": {
+            "dateRange": {
+                "id": 0,
+                "duration": 0,
+                "selection": 0,
+                "fromDate": 0,
+                "toDate": 0
+            },
+            "id": 0,
+            "type": {
+                "id": 4302
+            },
+            "lastModified": 0,
+            "assetName": "",
+            "startingRow": -1,
+            "maxRecordCount": -1,
+            "orderByProperty": "tagName",
+            "descending": false,
+            "filterDeleted": false
+        }
+    },
+    "opc":{ 
+         "url": "opc.tcp://192.168.1.7:49320",
+         "username":"srikruth",
+         "password":"11111111111111"
+    },
+    "num_producers":5,
+    "num_consumers":5
+}
